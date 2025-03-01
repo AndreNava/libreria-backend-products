@@ -11,7 +11,7 @@ services:
     volumes:
       - mysql-data:/var/lib/mysql
 
-  my-microservice:
+  products:
     image: products
     container_name: products
     ports:
