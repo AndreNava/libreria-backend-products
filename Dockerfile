@@ -11,4 +11,4 @@ COPY target/products-0.0.1-SNAPSHOT.jar prducts.jar
 EXPOSE 8086
 
 # Definir el comando para ejecutar el servicio
-ENTRYPOINT ["java", "-jar", "my-microservice.jar"]
+ENTRYPOINT ["java", "-jar", "prducts.jar"]
